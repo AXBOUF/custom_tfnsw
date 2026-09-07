@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sydney Metro Dashboard</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <style>
+    :root {
+      --bg-a: #f6f5ef;
+      --bg-b: #d7ecef;
+      --ink: #1f2a2e;
+      --accent: #0f6d79;
+      --card: rgba(255, 255, 255, 0.84);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 15% 20%, #fff8da 0%, transparent 40%),
+        radial-gradient(circle at 90% 10%, #cbe9f7 0%, transparent 35%),
+        linear-gradient(140deg, var(--bg-a), var(--bg-b));
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+
+    .header {
+      background: var(--card);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: 18px;
+      padding: 18px 20px;
+      box-shadow: 0 8px 30px rgba(31, 42, 46, 0.08);
+      animation: enter 650ms ease both;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.2rem, 2vw + 0.8rem, 2rem);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    p {
+      margin: 8px 0 0;
+      opacity: 0.85;
+    }
+
+    .map-wrap {
+      margin-top: 14px;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.75);
+      box-shadow: 0 14px 36px rgba(31, 42, 46, 0.15);
+      animation: enter 800ms 120ms ease both;
+    }
+
+    #map {
+      width: 100%;
+      height: min(72vh, 680px);
+      min-height: 380px;
+    }
+
+    @keyframes enter {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .page {
+        margin: 16px auto;
+      }
+
+      #map {
+        height: 64vh;
+        min-height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <script>
+    const { useEffect } = React;
+
+    function DashboardMap() {
+      useEffect(() => {
+        const map = L.map("map", {
+          zoomControl: true,
+          minZoom: 4,
+          maxZoom: 18,
+        }).setView([-33.8688, 151.2093], 10);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: "&copy; OpenStreetMap contributors",
+        }).addTo(map);
+
+        L.circleMarker([-33.8688, 151.2093], {
+          radius: 8,
+          weight: 2,
+          color: "#ffffff",
+          fillColor: "#0f6d79",
+          fillOpacity: 1,
+        })
+          .addTo(map)
+          .bindPopup("Sydney CBD")
+          .openPopup();
+
+        return () => map.remove();
+      }, []);
+
+      return React.createElement(
+        "div",
+        { className: "page" },
+        React.createElement(
+          "section",
+          { className: "header" },
+          React.createElement("h1", null, "Australia Dashboard Map"),
+          React.createElement(
+            "p",
+            null,
+            "Centered on Sydney with OpenStreetMap tiles."
+          )
+        ),
+        React.createElement(
+          "section",
+          { className: "map-wrap" },
+          React.createElement("div", { id: "map" })
+        )
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(React.createElement(DashboardMap));
+  </script>
+</body>
+</html>

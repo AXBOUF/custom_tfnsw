@@ -1,0 +1,849 @@
+{
+    "header": {
+        "gtfs_realtime_version": "1.0",
+        "incrementality": "FULL_DATASET",
+        "timestamp": "1788761755"
+    },
+    "entity": [
+        {
+            "id": "0/2026-09-07T06:15:50Z/RS019",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-117-011:1000",
+                    "start_time": "15:48:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.78501,
+                    "longitude": 151.12825,
+                    "bearing": 311.33,
+                    "speed": 9.0
+                },
+                "current_stop_sequence": 10,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761750",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2113362",
+                "vehicle": {
+                    "id": "RS019",
+                    "label": "RS019",
+                    "license_plate": "RS019"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "1/2026-09-07T06:15:40Z/RS037",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-105-013:1000",
+                    "start_time": "16:00:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.833466,
+                    "longitude": 151.20782,
+                    "bearing": 1.09,
+                    "speed": 19.0
+                },
+                "current_stop_sequence": 7,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761740",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2060114",
+                "vehicle": {
+                    "id": "RS037",
+                    "label": "RS037",
+                    "license_plate": "RS037"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "2/2026-09-07T06:15:44Z/RS010",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-156-002:1000",
+                    "start_time": "15:56:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.7414,
+                    "longitude": 151.0428,
+                    "bearing": 115.26,
+                    "speed": 28.0
+                },
+                "current_stop_sequence": 8,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761744",
+                "congestion_level": "CONGESTION",
+                "stop_id": "2126159",
+                "vehicle": {
+                    "id": "RS010",
+                    "label": "RS010",
+                    "license_plate": "RS010"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "3/2026-09-07T06:15:48Z/RS016",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-132-002:1000",
+                    "start_time": "15:36:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.817486,
+                    "longitude": 151.18953,
+                    "bearing": 133.76,
+                    "speed": 28.0
+                },
+                "current_stop_sequence": 13,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761748",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2067142",
+                "vehicle": {
+                    "id": "RS016",
+                    "label": "RS016",
+                    "license_plate": "RS016"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "4/2026-09-07T06:15:51Z/RS021",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-124-010:1000",
+                    "start_time": "15:32:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.83673,
+                    "longitude": 151.20741,
+                    "bearing": 189.44,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 15,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761751",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2060115",
+                "vehicle": {
+                    "id": "RS021",
+                    "label": "RS021",
+                    "license_plate": "RS021"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "5/2026-09-07T06:15:52Z/RS014",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-120-011:1000",
+                    "start_time": "16:08:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.87323,
+                    "longitude": 151.20808,
+                    "bearing": 3.59,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 4,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761752",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2000465",
+                "vehicle": {
+                    "id": "RS014",
+                    "label": "RS014",
+                    "license_plate": "RS014"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "6/2026-09-07T06:15:44Z/RS043",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-104-013:1000",
+                    "start_time": "15:44:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.775406,
+                    "longitude": 151.10622,
+                    "bearing": 249.08,
+                    "speed": 28.0
+                },
+                "current_stop_sequence": 12,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761744",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2113352",
+                "vehicle": {
+                    "id": "RS043",
+                    "label": "RS043",
+                    "license_plate": "RS043"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "7/2026-09-07T06:15:51Z/RS035",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-111-012:1000",
+                    "start_time": "15:48:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.777824,
+                    "longitude": 151.11862,
+                    "bearing": 131.34,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 10,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761751",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2113351",
+                "vehicle": {
+                    "id": "RS035",
+                    "label": "RS035",
+                    "license_plate": "RS035"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "8/2026-09-07T06:15:42Z/RS020",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-129-003:1000",
+                    "start_time": "15:36:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.736412,
+                    "longitude": 151.0314,
+                    "bearing": 307.54,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 14,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761742",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2126160",
+                "vehicle": {
+                    "id": "RS020",
+                    "label": "RS020",
+                    "license_plate": "RS020"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "9/2026-09-07T06:15:52Z/RS026",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-106-013:1000",
+                    "start_time": "16:04:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.859074,
+                    "longitude": 151.20251,
+                    "bearing": 356.73,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 6,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761752",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2000461",
+                "vehicle": {
+                    "id": "RS026",
+                    "label": "RS026",
+                    "license_plate": "RS026"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "10/2026-09-07T06:15:43Z/RS007",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-107-012:1000",
+                    "start_time": "15:20:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.901447,
+                    "longitude": 151.20103,
+                    "bearing": 188.88,
+                    "speed": 24.0
+                },
+                "current_stop_sequence": 20,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761743",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2017078",
+                "vehicle": {
+                    "id": "RS007",
+                    "label": "RS007",
+                    "license_plate": "RS007"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "11/2026-09-07T06:15:42Z/RS039",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-112-012:1000",
+                    "start_time": "16:12:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.700794,
+                    "longitude": 150.9296,
+                    "bearing": 162.75,
+                    "speed": 28.0
+                },
+                "current_stop_sequence": 2,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761742",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2155267",
+                "vehicle": {
+                    "id": "RS039",
+                    "label": "RS039",
+                    "license_plate": "RS039"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "12/2026-09-07T06:15:41Z/RS013",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-121-011:1000",
+                    "start_time": "16:12:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.897156,
+                    "longitude": 151.20006,
+                    "bearing": 344.72,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 2,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761741",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2017077",
+                "vehicle": {
+                    "id": "RS013",
+                    "label": "RS013",
+                    "license_plate": "RS013"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "13/2026-09-07T06:15:45Z/RS022",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-152-012:1000",
+                    "start_time": "16:08:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.731102,
+                    "longitude": 150.94434,
+                    "bearing": 158.78,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 4,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761745",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2153402",
+                "vehicle": {
+                    "id": "RS022",
+                    "label": "RS022",
+                    "license_plate": "RS022"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "14/2026-09-07T06:15:48Z/RS036",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-102-013:1000",
+                    "start_time": "15:24:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.72173,
+                    "longitude": 150.9392,
+                    "bearing": 339.66,
+                    "speed": 27.0
+                },
+                "current_stop_sequence": 18,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761748",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2153403",
+                "vehicle": {
+                    "id": "RS036",
+                    "label": "RS036",
+                    "license_plate": "RS036"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "15/2026-09-07T06:15:44Z/RS042",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-114-011:1000",
+                    "start_time": "15:28:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.734787,
+                    "longitude": 150.96344,
+                    "bearing": 223.46,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 17,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761744",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2153405",
+                "vehicle": {
+                    "id": "RS042",
+                    "label": "RS042",
+                    "license_plate": "RS042"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "16/2026-09-07T06:15:46Z/RS032",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-123-010:1000",
+                    "start_time": "15:28:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.863426,
+                    "longitude": 151.20973,
+                    "bearing": 130.39,
+                    "speed": 18.0
+                },
+                "current_stop_sequence": 16,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761746",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2000460",
+                "vehicle": {
+                    "id": "RS032",
+                    "label": "RS032",
+                    "license_plate": "RS032"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "17/2026-09-07T06:15:42Z/RS038",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-155-010:1000",
+                    "start_time": "16:04:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.730362,
+                    "longitude": 150.97203,
+                    "bearing": 80.51,
+                    "speed": 28.0
+                },
+                "current_stop_sequence": 5,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761742",
+                "congestion_level": "CONGESTION",
+                "stop_id": "2153404",
+                "vehicle": {
+                    "id": "RS038",
+                    "label": "RS038",
+                    "license_plate": "RS038"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "18/2026-09-07T06:15:51Z/RS044",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-154-010:1000",
+                    "start_time": "16:00:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.731255,
+                    "longitude": 151.00847,
+                    "bearing": 72.64,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 6,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761751",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2154264",
+                "vehicle": {
+                    "id": "RS044",
+                    "label": "RS044",
+                    "license_plate": "RS044"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "19/2026-09-07T06:15:42Z/RS040",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-101-013:1000",
+                    "start_time": "15:20:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.691513,
+                    "longitude": 150.92387,
+                    "bearing": 325.13,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 19,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761742",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2155266",
+                "vehicle": {
+                    "id": "RS040",
+                    "label": "RS040",
+                    "license_plate": "RS040"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "20/2026-09-07T06:15:51Z/RS033",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-110-012:1000",
+                    "start_time": "15:44:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.794357,
+                    "longitude": 151.13863,
+                    "bearing": 108.46,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 12,
+                "current_status": "STOPPED_AT",
+                "timestamp": "1788761751",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2113361",
+                "vehicle": {
+                    "id": "RS033",
+                    "label": "RS033",
+                    "license_plate": "RS033"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "21/2026-09-07T06:15:45Z/RS011",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-115-011:1000",
+                    "start_time": "15:32:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.73047,
+                    "longitude": 150.9979,
+                    "bearing": 304.95,
+                    "speed": 28.0
+                },
+                "current_stop_sequence": 15,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761745",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2154263",
+                "vehicle": {
+                    "id": "RS011",
+                    "label": "RS011",
+                    "license_plate": "RS011"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "22/2026-09-07T06:15:51Z/RS023",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-103-013:1000",
+                    "start_time": "15:40:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.76421,
+                    "longitude": 151.07628,
+                    "bearing": 311.87,
+                    "speed": 22.0
+                },
+                "current_stop_sequence": 13,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761751",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2121226",
+                "vehicle": {
+                    "id": "RS023",
+                    "label": "RS023",
+                    "license_plate": "RS023"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "23/2026-09-07T06:15:43Z/RS027",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-108-012:1000",
+                    "start_time": "15:24:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.883003,
+                    "longitude": 151.20743,
+                    "bearing": 215.26,
+                    "speed": 19.0
+                },
+                "current_stop_sequence": 18,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761743",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2000464",
+                "vehicle": {
+                    "id": "RS027",
+                    "label": "RS027",
+                    "license_plate": "RS027"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "24/2026-09-07T06:15:42Z/RS034",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-153-010:1000",
+                    "start_time": "15:52:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.774014,
+                    "longitude": 151.08278,
+                    "bearing": 160.71,
+                    "speed": 0.0
+                },
+                "current_stop_sequence": 8,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761742",
+                "congestion_level": "SEVERE_CONGESTION",
+                "stop_id": "2126159",
+                "vehicle": {
+                    "id": "RS034",
+                    "label": "RS034",
+                    "license_plate": "RS034"
+                },
+                "occupancy_status": "MANY_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "25/2026-09-07T06:15:42Z/RS017",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-109-012:1000",
+                    "start_time": "15:40:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 1
+                },
+                "position": {
+                    "latitude": -33.78365,
+                    "longitude": 151.1794,
+                    "bearing": 161.47,
+                    "speed": 27.0
+                },
+                "current_stop_sequence": 12,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761742",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2113361",
+                "vehicle": {
+                    "id": "RS017",
+                    "label": "RS017",
+                    "license_plate": "RS017"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        },
+        {
+            "id": "26/2026-09-07T06:15:51Z/RS003",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-130-003:1000",
+                    "start_time": "15:56:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.80177,
+                    "longitude": 151.181,
+                    "bearing": 358.33,
+                    "speed": 24.0
+                },
+                "current_stop_sequence": 8,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761751",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2065164",
+                "vehicle": {
+                    "id": "RS003",
+                    "label": "RS003",
+                    "license_plate": "RS003"
+                },
+                "occupancy_status": "STANDING_ROOM_ONLY"
+            }
+        },
+        {
+            "id": "27/2026-09-07T06:15:46Z/RS028",
+            "vehicle": {
+                "trip": {
+                    "trip_id": "0259-001-118-011:1000",
+                    "start_time": "15:52:00",
+                    "start_date": "20260907",
+                    "schedule_relationship": "SCHEDULED",
+                    "route_id": "SMNW_M1",
+                    "direction_id": 0
+                },
+                "position": {
+                    "latitude": -33.7848,
+                    "longitude": 151.16275,
+                    "bearing": 194.78,
+                    "speed": 28.0
+                },
+                "current_stop_sequence": 9,
+                "current_status": "IN_TRANSIT_TO",
+                "timestamp": "1788761746",
+                "congestion_level": "RUNNING_SMOOTHLY",
+                "stop_id": "2067143",
+                "vehicle": {
+                    "id": "RS028",
+                    "label": "RS028",
+                    "license_plate": "RS028"
+                },
+                "occupancy_status": "FEW_SEATS_AVAILABLE"
+            }
+        }
+    ]
+}
