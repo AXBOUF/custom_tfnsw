@@ -1,20 +1,30 @@
+# Environment
 .env
-.venv   
-venv
+.env.*
+.venv/
+venv/
 
-# Python cache/bytecode
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+.python-version
 
-# Test and coverage artifacts
+# Tool and test caches
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .coverage
 htmlcov/
 
-# Tool caches
-.mypy_cache/
-.ruff_cache/
-
-# Django local artifacts
+# Django runtime/local files
 *.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Frontend (if present in subfolders)
+node_modules/
+dist/
+
+# OS/editor noise
+.DS_Store
